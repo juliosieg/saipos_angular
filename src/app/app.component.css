@@ -1,0 +1,29 @@
+.row.completed div {
+  text-decoration: line-through;
+}
+
+.row.nothing {
+  font-style: italic;
+}
+
+.row.rowTask.pending,
+.row.rowTask.completed {
+  margin-top: 10px;
+}
+
+.row .columnIcon {
+  padding-top: 5px;
+}
+
+.row .columnIcon .icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.row.maxCompleted {
+  color: gray
+}
+
+.row.maxCompleted .columnIcon {
+  display: none;
+}
